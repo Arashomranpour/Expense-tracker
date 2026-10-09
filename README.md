@@ -27,7 +27,7 @@ cd Expense-tracker
 pip install streamlit plotly streamlit-option-menu deta
 ```
 
-Set your own Deta project key in `database.py` (ideally read from an environment variable or Streamlit secrets), then:
+Export your Deta project key as `DETA_KEY`, then:
 
 ```bash
 streamlit run app.py
